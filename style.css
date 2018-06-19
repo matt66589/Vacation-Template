@@ -1,0 +1,42 @@
+html, body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#page1
+{
+    height: 0px;
+    width: 100%;
+    background-image: url('assets/page1_background.jpg');
+    background-position: center;
+}
+#page1.nav:first-child
+{
+    /* text-decoration: underline; */
+}
+.nav
+{
+    text-align: right;
+    color: white;
+    padding-right: 19px;
+    font-size: 25pt;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.navBlock
+{
+    display: inline-block;
+    padding-right: 18px;
+    padding-top: 0;
+    margin-top: 0;
+}
+#page2
+{
+    background-color: #76BED0;
+}
+#buttonContainer
+{
+    
+}
