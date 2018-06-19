@@ -39,4 +39,13 @@ html, body
 #buttonContainer
 {
     
+    width: 100%;
+    text-align: center;
+    
+}
+#exploreButton
+{
+    width: 200px;
+    height: 100px;
+    border: 3px solid black;
 }
