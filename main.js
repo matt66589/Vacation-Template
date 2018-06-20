@@ -14,8 +14,9 @@
         $('#page1').css('width', initWidth + 'px');
         $('#page1').css('height', initHeight + 'px');
 
-        $('#buttonContainer').css('height', (initHeight - $('.nav').height()) + 'px');
-        $('#buttonTopSpace').css('margin-top', ($('#buttonContainer').height()/2) + ($('#exploreButton').height()/2) + 'px');
+        $('#buttonTopSpace').css('height', $('#page1').height()/2 - $('.nav').height() - ($('#exploreButton').height()/2) + 'px');
+        //$('#buttonContainer').css('height', (initHeight - $('.nav').height()) + 'px');
+        //$('#buttonContainer').css('padding-top', ($('#buttonContainer').height()/2 - $('#exploreButton').height()) + 'px');
 
         $('#page2').css('width', initWidth + 'px');
         $('#page2').css('height', initHeight + 'px');
@@ -31,6 +32,11 @@
 
             $('#page1').css('width', cWidth + 'px');
             $('#page1').css('height', cHeight + 'px');
+
+            //$('#buttonContainer').css('height', (initHeight - $('.nav').height()) + 'px');
+            //$('#buttonContainer').css('padding-top', ($('#buttonContainer').height()/2 - $('#exploreButton').height()) + 'px');
+
+            $('#buttonTopSpace').css('height', $('#page1').height()/2 - $('.nav').height() - ($('#exploreButton').height()/2) + 'px');
 
             $('#page2').css('width', cWidth + 'px');
             $('#page2').css('height', cHeight + 'px');

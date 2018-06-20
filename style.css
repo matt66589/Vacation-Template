@@ -38,14 +38,38 @@ html, body
 }
 #buttonContainer
 {
-    
     width: 100%;
     text-align: center;
-    
 }
 #exploreButton
 {
-    width: 200px;
+    width: 220px;
     height: 100px;
-    border: 3px solid black;
+    border: 4px solid white;
+    font-size: 40pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(160, 160, 160, 0.933);
+    opacity: 0.8;
+}
+#exploreButton:active
+{
+    background-color: rgba(124, 124, 124, 0.933);
+}
+#exploreButton:hover
+{
+    height: 110px;
+    width: 230px;
+    font-size: 42pt;
+    transition: 0.5s;
+}
+#buttonTopSpace
+{
+    width: 100%;
+    height: 0;
 }
