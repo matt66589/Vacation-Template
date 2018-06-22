@@ -23,6 +23,12 @@
 
         console.log('#page1 set to ' + initWidth + 'px ' + initHeight + 'px.');
 
+
+        //check the shade leron website for the scrolling function thing
+        $('#exploreButton').click(function(){
+            $('html, body').animate({ scrollTop : $('#page2').offset().top }, 750);
+        });
+
         // Resize function for responsiveness
         
         $(window).resize(function(){
